@@ -1,8 +1,8 @@
-___In general this is the realization of AES-128 with CBC-HMAC mode.
+__In general this is the realization of AES-128 with CBC-HMAC mode.__
 
-__It was made for general use and for educational purpose if you want actually know how AES works(and actually how CBC mode works).
+__It was made for general use and for educational purpose if you want actually know how AES works(and actually how CBC mode works).__
 
-__Also here are short description how it works:
+__Also here are short description how it works:__
 
 1. Firstly you need to install dependencies:
 sudo apt update
