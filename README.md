@@ -7,7 +7,9 @@ __Also here are short description how it works:__
 1. Firstly you need to install dependencies:
 
 >>sudo apt update
+
 >>sudo apt install libssl-dev(openssl libraries for HMAC generation)
+
 >>sudo apt install gcc(but if you already have a compiler then you can skip this)
 
 2. Compile all files by using this command:
