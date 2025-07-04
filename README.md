@@ -5,15 +5,18 @@ __It was made for general use and for educational purpose if you want actually k
 __Also here are short description how it works:__
 
 1. Firstly you need to install dependencies:
-sudo apt update
-sudo apt install libssl-dev(openssl libraries for HMAC generation)
-sudo apt install gcc(but if you already have a compiler then you can skip this)
+
+>>sudo apt update
+>>sudo apt install libssl-dev(openssl libraries for HMAC generation)
+>>sudo apt install gcc(but if you already have a compiler then you can skip this)
 
 2. Compile all files by using this command:
-gcc AES.c -o AES -lssl -lcrypto
+
+>>gcc AES.c -o AES -lssl -lcrypto
 
 3. Launch it simply:
-./AES
+
+>>./AES
 
 4.Then there will be two input fields(plaintext and key). Here's an example how it will look:
 ![image](https://github.com/user-attachments/assets/dd99694d-8933-4534-8218-eb4ce68072f8)
